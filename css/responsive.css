@@ -1,0 +1,37 @@
+@media only screen and (max-width:1000px) {
+    form {
+        max-width: 90%!important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .logo {
+        display: none;
+    }
+    .slide {
+        margin-top: 40px;
+    }
+    .mobile-nav {
+        display: block!important;
+        display: flex!important;
+        align-items: center;
+    }
+    .sign-btn {
+        display: none!important;
+    }
+    .create-btn {
+        width: 30%;
+    }
+    #nav {
+        background-color: white!important;
+    }
+    .text-position {
+        text-align: start!important;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .carousel-caption {
+        display: none;
+    }
+}

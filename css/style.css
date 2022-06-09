@@ -1,0 +1,178 @@
+.scroll {
+    background-color: #ffff!important;
+    box-shadow: 1px 8px 16px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 8px 16px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 8px 16px -5px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-nav>li {
+    margin-left: 20px;
+}
+
+.sign-btn {
+    border-radius: 5px;
+}
+
+.create-btn {
+    border-radius: 5px;
+    background-color: #2CB7EA;
+}
+
+.navbar-toggler {
+    border: 1px solid black!important;
+}
+
+.bar {
+    color: black!important;
+}
+
+.carousel-inner {
+    height: 100%!important;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 1.25rem;
+    top: 20%;
+    bottom: 0;
+    left: 9%;
+    padding-top: 1.25rem;
+    padding-bottom: .25rem!important;
+    text-align: start!important;
+    width: 30%!important;
+}
+
+.custom-shape-divider-top-1654758775 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1654758775 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-top-1654758775 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.show_bg_2 {
+    background-size: cover;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-bottom: 190px;
+}
+
+#color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(135, 202, 222);
+    background: linear-gradient(0deg, rgba(135, 202, 222, 1) 35%, rgba(44, 183, 234, 1) 100%);
+    opacity: .9;
+}
+
+.content-area {
+    top: 190px;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.shadow {
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+hr {
+    border-top: 2px solid #2CB7EA;
+    opacity: 1.25;
+    width: 15%;
+}
+
+footer {
+    position: relative;
+    background-repeat: no-repeat!important;
+    /* Set up proportionate scaling */
+    width: 100%;
+    /* Set up positioning */
+    top: 0;
+    left: 0;
+    background: rgb(10, 1, 1);
+}
+
+#footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .9;
+}
+
+
+/* search */
+
+input:focus {
+    outline: none!important;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form.example button {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
