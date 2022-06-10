@@ -44,4 +44,7 @@
         text-align: start!important;
         width: 40%!important;
     }
+    .inner-t {
+        display: none!important;
+    }
 }

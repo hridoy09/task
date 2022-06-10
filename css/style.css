@@ -176,3 +176,15 @@ form.example::after {
     clear: both;
     display: table;
 }
+
+.t-color {
+    color: #2CB7EA;
+}
+
+.owl-stage {
+    margin-top: 10px!important;
+}
+
+.item {
+    padding: 10px;
+}
