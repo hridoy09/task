@@ -31,7 +31,17 @@
 }
 
 @media only screen and (max-width:567px) {
-    .carousel-caption {
+    /* .carousel-caption {
         display: none;
+    } */
+    .carousel-caption {
+        bottom: 1.25rem;
+        top: 10%;
+        bottom: 0;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: .25rem!important;
+        text-align: start!important;
+        width: 40%!important;
     }
 }
